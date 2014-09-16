@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+  <header class="navbar navbar-inverse">
+    <a class="navbar-brand" href="#">Tip Calculator</a>
+  </header>
+  <section id="content">
+    <h3 class="panel-heading">
+      Hey there! Let me calculate that for you.
+    </h3>
+    <div class="form-group">
+      <div class="input-group col-lg-5">
+          <div class="input-group-addon"><strong>Base Meal Cost:</strong></div>
+          <input id="basecost" class="form-control" type="number" placeholder="0.00"/>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="input-group col-lg-5">
+        <div class="input-group-addon"><strong>Tax Rate Percent:</strong></div>
+        <input id="taxpercent" class="form-control" type="number" placeholder="0.00"/>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="input-group col-lg-5">
+        <div class="input-group-addon"><strong>Desired Tip Percent:</strong></div>
+        <input id="tippercent" class="form-control" type="number" placeholder="0.00"/>
+      </div>
+    </div>
+  </section>
+  <button style="margin-bottom: 15px;" type="submit" id="calculate" class="btn btn-primary">Calculate!</button>
+  <div class="input-group-addon"><strong>Total Bill: </strong></div>
+  <p id="totalbill" class="form-control"></p>
+</body>
+</html>
