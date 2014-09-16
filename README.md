@@ -1,0 +1,1 @@
+This is a simple javascript app to illustrate competency for NodeJS class.
